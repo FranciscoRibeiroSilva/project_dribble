@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 //import 'package:fl_chart/fl_chart.dart';
 import 'package:proj_dribble/constants.dart';
 import 'package:proj_dribble/screens/widget/my_card.dart';
-import 'package:proj_dribble/screens/widget/navvar.dart';
+import 'package:proj_dribble/screens/widget/navbar.dart';
 
 //import 'package:hooks_riverpod/hooks_riverpod.dart';
 class Homepage extends StatelessWidget {
@@ -154,79 +154,3 @@ class Homepage extends StatelessWidget {
         bottomNavigationBar: const Menu());
   }
 }
-
-//return Column(
-//      children: [
-//        Row(
-//          children: [
-//            const CircleAvatar(
-//              radius: 35.0,
-//              backgroundImage: AssetImage('asset/Kirio_Hikifune (1).png'),
-//            ),
-//            Column(
-//              children: [
-//                const Text(
-//                  'Hello Hikifune',
-//                  style: TextStyle(fontSize: 10.0),
-//                ),
-//                Row(children: [
-//                  const Text(
-//                    'Hoje é 20',
-//                    style: TextStyle(fontSize: 10.0),
-//                  ),
-//                  IconButton(
-//                    onPressed: () {},
-//                    icon: const Icon(Icons.notifications_none),
-//                  ),
-//                ])
-//              ],
-//            ),
-//          ],
-//        ),
-//        const Text(
-//          'Calorias queimadas',
-//          style: TextStyle(fontSize: 10.0),
-//        ),
-//        const Row(
-//          children: [
-//            Column(
-//              children: [
-//                Text(
-//                  '67%',
-//                  style: TextStyle(fontSize: 10.0),
-//                ),
-//                Text(
-//                  '3000 cal',
-//                  style: TextStyle(fontSize: 10.0),
-//                )
-//              ],
-//            ),
-//            Text(
-//              'Calorias queimadas',
-//              style: TextStyle(fontSize: 10.0),
-//            )
-//          ],
-//        ),
-//        Container(
-//          child: const Column(
-//            children: [
-//              ProgressLine(percentage: 60),
-//              ProgressLine(percentage: 70),
-//              ProgressLine(percentage: 35),
-//            ],
-//          ),
-//        ),
-//        Container(
-//          child: const Column(
-//            children: [
-//              Text('Essa semana'),
-//              Row(children: [
-//                Container(
-//                  child: BarChart(BarChartData())),
-//              ],),
-//            ],
-//          ),
-//        )
-//      ],
-//    );
-//  }

@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:proj_dribble/constants.dart';
 
-class Helper extends StatelessWidget {
-  const Helper({super.key});
+class PackSub extends StatelessWidget {
+  const PackSub({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: bgColor,
+        foregroundColor: Colors.white,
+      ),
       backgroundColor: bgColor,
       body: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -106,7 +110,7 @@ class Helper extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 350,
+              height: 300,
             ),
             ElevatedButton(onPressed: () {}, child: const Text('Buy Package'))
           ],

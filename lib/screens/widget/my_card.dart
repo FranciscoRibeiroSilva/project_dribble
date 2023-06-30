@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proj_dribble/constants.dart';
+import 'package:proj_dribble/screens/packages.dart';
 
 class MyCard extends StatelessWidget {
   const MyCard({super.key, required this.icone, required this.titlo, this.cor});
@@ -28,7 +29,10 @@ class MyCard extends StatelessWidget {
                 ),
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => const PackSub()));
+                },
                 icon: const Icon(
                   Icons.navigate_next,
                   color: Colors.white,

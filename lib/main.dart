@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:proj_dribble/screens/home_page.dart';
-import 'screens/packages.dart';
+//import 'screens/packages.dart';
 
 void main() {
   runApp(
